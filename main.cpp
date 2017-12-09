@@ -11,6 +11,8 @@ int main()
 	{
 		tablica[i] = true;
 	}
+	tablica[0] = false;
+	tablica[1] = false;
 	int j = 2;
 	while(j < a)
 	{
