@@ -24,7 +24,14 @@ int main()
 		j++;
 	}
 
+	int pozycja = 1;
 	for(int i = 0; i < a; i++)
-	    if(tablica[i]==true)
-	        cout << i << endl;
+    {
+        if(tablica[i]==true)
+        {
+            cout << pozycja << ". "<< i << endl;
+            pozycja++;
+        }
+    }
+
 }
